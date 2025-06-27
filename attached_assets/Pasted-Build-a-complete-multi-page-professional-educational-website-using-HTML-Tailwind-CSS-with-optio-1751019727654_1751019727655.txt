@@ -1,0 +1,147 @@
+Build a complete, multi-page, professional educational website using HTML + Tailwind CSS (with optional light JavaScript if needed).
+
+The site is part of a student-led initiative to bring AI literacy to rural students in Taiwan, helping them learn how to use AI tools — not build AI — so they can thrive in a world where ideas, problem-solving, and creativity matter more than raw coding.
+
+The site should feel similar to engineeringtomorrow.org: clean, well-spaced, responsive, mobile-first, and professional. Avoid playful or childish styles. Use accessible fonts like Poppins, Inter, or Quicksand. Use Tailwind for all styling and maintain clean structure with clear sections and comments.
+
+🧱 Pages to Create (6 HTML files)
+1. index.html – Homepage
+Hero Section:
+Title: “Empowering Rural Youth Through AI”
+
+Subtitle: “A student-led platform to teach real AI tools for real-world impact.”
+
+Button: “Explore Curriculum” → scroll or link to curriculum.html
+
+Mission Paragraph (use exactly this):
+In today’s world, AI can code. AI can build websites. AI can generate entire projects in seconds.
+
+The truth is — we no longer need more people who just know how to code.
+
+What we need are people with ideas. People who know how to use AI as a tool to create, solve, and lead. The ones who will succeed aren’t those who compete with AI, but those who command it — who use it to bring visions to life, build what matters, and push boundaries that no program alone could imagine.
+
+That’s what this project is about. We’re not teaching kids to build AI — we’re teaching them to wield it. Especially in rural communities where access to these tools is limited, we believe every student deserves a chance to explore, experiment, and create with the world’s most powerful technologies.
+
+The future belongs to those who know what to do with AI — not just how to build it.
+
+Impact Stats (grid layout):
+0 schools reached
+
+6 recommended AI tools
+
+100% free for all students
+
+2. curriculum.html – Full Learning Curriculum
+We teach AI literacy through hands-on, structured modules. Students don’t just learn tools — they apply them to build websites, summarize knowledge, express creativity, and pitch ideas.
+
+Create a grid or table with:
+
+Module	Title	Tools Used	Student Project Example
+1	Intro to AI & Prompting	ChatGPT	Ask AI: “Explain why cats purr.”
+2	Build a Website with AI	Replit Ghostwriter, Vibe Coding	“All About My Pet” website
+3	Summarize Notes with AI	Notion AI, ChatGPT	3-paragraph article summary
+4	AI-Powered Art & Design	Scribble Diffusion, Canva AI	Poster: “My Dream School”
+5	Make Presentations with AI	Tome, Canva AI	3-slide presentation: “Why AI Matters”
+6	Capstone: Build Your Own Project	Any tool	Personal mini-site or story with visuals
+
+3. recommended-ai.html – Recommended AI Tools
+Top paragraph:
+
+The world is full of new AI tools being created every day. We test and recommend tools that are safe, free, and useful for students — from coding to studying to creativity.
+
+Grid of tools:
+Tool	Use Case	Link
+ChatGPT	Q&A, writing, studying	chat.openai.com
+Replit Ghostwriter	Coding with AI help	replit.com
+Vibe Coding	No-code website creation	vibecoding.com
+Notion AI	Summarize notes	notion.so
+Canva AI	Design posters, slides	canva.com
+Tome	Presentation generator	tome.app
+Scribble Diffusion	AI art/sketching	scribblediffusion.com
+
+Use icons, short descriptions, and “Try It” buttons for each.
+
+4. get-involved.html – Join the Movement
+Use this exact content:
+
+🏫 Teachers & School Leaders
+Bring our workshop to your school. We offer a complete curriculum using real-world AI tools like ChatGPT, Replit, Tome, and Canva AI. We’ll work with your teaching schedule and classroom environment to adapt lessons and support your students every step of the way.
+
+🧑‍🎓 High School & University Students
+You don’t have to be an expert to help. We welcome passionate students from any background to:
+
+Assist in delivering workshops
+
+Help students with tool usage
+
+Translate material or make visual aids
+
+Document success stories and impact
+
+This is a great chance to gain real project experience and showcase leadership in education and technology for your own college applications.
+
+💡 Why Join Us
+Many rural students are eager to learn but are left behind by the fast-changing tech world. This initiative gives them access to tools that are shaping modern education and careers. You can help make that leap possible.
+
+✅ Ready to Join?
+Use the form below or email us directly. We’d love to hear how you’d like to help.
+
+Add a clean form with:
+
+Name
+
+Email
+
+Role (Teacher / Student / Volunteer)
+
+Message
+
+Button: "Join Us"
+
+5. donate.html – Support Our Work
+Title: Support AI Access for All Students
+
+Top paragraph:
+
+Your donation helps us run workshops, print materials, and reach more classrooms in rural Taiwan. 100% of donations go to program delivery.
+
+Donation Tiers:
+
+$10 → Printouts for 1 student
+
+$50 → Workshop for 1 classroom
+
+$200 → One month of service to a rural school
+
+Include a placeholder donation form or PayPal button. Optionally provide bank info or contact for sponsorship.
+
+6. contact.html – Reach Out
+Simple contact page with:
+
+Email: your-email@example.com
+
+Short intro message
+
+Contact form:
+
+Name
+
+Email
+
+Subject
+
+Message
+
+Submit button
+
+🎨 Design & Style Guide
+Component	Style
+Font	Poppins, Inter, or Quicksand
+Colors	Sky Blue #38BDF8, Yellow #FCD34D, Coral #FB7185, Gray #374151
+Layout	max-w-7xl mx-auto px-4, py-20 spacing per section
+Grids	grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6
+Buttons	bg-[#38BDF8] text-white rounded-lg px-6 py-3 hover:bg-[#0ea5e9]
+Icons	Use Heroicons or Lucide for professionalism
+Responsiveness	Mobile-first using Tailwind breakpoints
+Navbar/Footer	Shared across all pages, top nav bar with links to each page
+

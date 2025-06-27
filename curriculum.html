@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum - AI for Future Minds</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        /* Custom colors */
+        .bg-primary { background-color: #2563EB; }
+        .bg-secondary { background-color: #64748B; }
+        .bg-light { background-color: #F8FAFC; }
+        .bg-highlight { background-color: #6366F1; }
+        .text-primary { color: #2563EB; }
+        .text-secondary { color: #64748B; }
+        .text-charcoal { color: #1E293B; }
+        .text-highlight { color: #6366F1; }
+        .border-highlight { border-color: #6366F1; }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Button hover effects */
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-light text-charcoal">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="text-2xl font-bold text-primary">
+                    AI for Future Minds
+                </div>
+                
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-primary transition-colors font-medium">Home</a>
+                    <a href="curriculum.html" class="hover:text-primary transition-colors font-medium text-primary">Curriculum</a>
+                    <a href="recommended-ai.html" class="hover:text-primary transition-colors font-medium">AI Tools</a>
+                    <a href="get-involved.html" class="hover:text-primary transition-colors font-medium">Get Involved</a>
+                    <a href="donate.html" class="hover:text-primary transition-colors font-medium">Donate</a>
+                    <a href="contact.html" class="hover:text-primary transition-colors font-medium">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-2xl" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div class="md:hidden hidden pb-4" id="mobile-menu">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="py-2 hover:text-primary transition-colors">Home</a>
+                    <a href="curriculum.html" class="py-2 hover:text-primary transition-colors text-primary">Curriculum</a>
+                    <a href="recommended-ai.html" class="py-2 hover:text-primary transition-colors">AI Tools</a>
+                    <a href="get-involved.html" class="py-2 hover:text-primary transition-colors">Get Involved</a>
+                    <a href="donate.html" class="py-2 hover:text-primary transition-colors">Donate</a>
+                    <a href="contact.html" class="py-2 hover:text-primary transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-charcoal mb-6">
+                Full Learning Curriculum
+            </h1>
+            <p class="text-xl text-secondary mb-8 max-w-3xl mx-auto">
+                We teach AI literacy through hands-on, structured modules. Students don't just learn tools — they apply them to build websites, summarize knowledge, express creativity, and pitch ideas.
+            </p>
+        </div>
+    </section>
+
+    <!-- Curriculum Modules -->
+    <section class="py-20 bg-light">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-lg shadow-sm border border-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-4 text-left font-semibold text-charcoal">Module</th>
+                            <th class="px-6 py-4 text-left font-semibold text-charcoal">Title</th>
+                            <th class="px-6 py-4 text-left font-semibold text-charcoal">Tools Used</th>
+                            <th class="px-6 py-4 text-left font-semibold text-charcoal">Student Project Example</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">1</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">Intro to AI & Prompting</td>
+                            <td class="px-6 py-4 text-secondary">ChatGPT</td>
+                            <td class="px-6 py-4 text-secondary">Ask AI: "Explain why cats purr."</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">2</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">Build a Website with AI</td>
+                            <td class="px-6 py-4 text-secondary">Replit Ghostwriter, Vibe Coding</td>
+                            <td class="px-6 py-4 text-secondary">"All About My Pet" website</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">3</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">Summarize Notes with AI</td>
+                            <td class="px-6 py-4 text-secondary">Notion AI, ChatGPT</td>
+                            <td class="px-6 py-4 text-secondary">3-paragraph article summary</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">4</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">AI-Powered Art & Design</td>
+                            <td class="px-6 py-4 text-secondary">Scribble Diffusion, Canva AI</td>
+                            <td class="px-6 py-4 text-secondary">Poster: "My Dream School"</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">5</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">Make Presentations with AI</td>
+                            <td class="px-6 py-4 text-secondary">Tome, Canva AI</td>
+                            <td class="px-6 py-4 text-secondary">3-slide presentation: "Why AI Matters"</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-semibold text-primary">6</td>
+                            <td class="px-6 py-4 font-medium text-charcoal">Capstone: Build Your Own Project</td>
+                            <td class="px-6 py-4 text-secondary">Any tool</td>
+                            <td class="px-6 py-4 text-secondary">Personal mini-site or story with visuals</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-charcoal mb-4">
+                    Learning Progression
+                </h2>
+                <p class="text-xl text-secondary">
+                    Each module builds on the previous one, creating a comprehensive AI literacy foundation
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Module 1 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        1
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Foundation</h3>
+                    <p class="text-secondary mb-4">
+                        Learn what AI is and how to communicate with it effectively through prompting.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 1 week
+                    </div>
+                </div>
+                
+                <!-- Module 2 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        2
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Creation</h3>
+                    <p class="text-secondary mb-4">
+                        Build your first website using AI tools, no coding experience required.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 2 weeks
+                    </div>
+                </div>
+                
+                <!-- Module 3 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        3
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Analysis</h3>
+                    <p class="text-secondary mb-4">
+                        Transform complex information into clear, digestible summaries for better learning.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 1 week
+                    </div>
+                </div>
+                
+                <!-- Module 4 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        4
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Creativity</h3>
+                    <p class="text-secondary mb-4">
+                        Express ideas visually through AI-powered art and design tools.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 2 weeks
+                    </div>
+                </div>
+                
+                <!-- Module 5 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        5
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Communication</h3>
+                    <p class="text-secondary mb-4">
+                        Create compelling presentations that effectively share your ideas.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 2 weeks
+                    </div>
+                </div>
+                
+                <!-- Module 6 -->
+                <div class="bg-light p-6 rounded-lg border border-gray-200">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        6
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Mastery</h3>
+                    <p class="text-secondary mb-4">
+                        Combine all skills to create an original project that showcases your AI literacy.
+                    </p>
+                    <div class="text-sm text-highlight font-medium">
+                        Duration: 3 weeks
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Ready to Start Learning?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                Join us in bringing this curriculum to your school or community
+            </p>
+            <a href="get-involved.html" 
+               class="inline-block bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold btn-primary hover:bg-gray-100">
+                Get Involved
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Contact</h3>
+                    <p class="text-secondary mb-2">
+                        contact@aifutureminds.org
+                    </p>
+                </div>
+                
+                <!-- Social Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Links</h3>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-secondary hover:text-primary">Privacy Policy</a>
+                        <a href="#" class="block text-secondary hover:text-primary">FAQ</a>
+                        <a href="#" class="block text-secondary hover:text-primary">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t pt-8 text-center text-secondary">
+                <p>&copy; 2025 AI for Future Minds. Empowering rural youth through AI literacy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

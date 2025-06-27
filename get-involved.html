@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - AI for Future Minds</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        /* Custom colors */
+        .bg-primary { background-color: #2563EB; }
+        .bg-secondary { background-color: #64748B; }
+        .bg-light { background-color: #F8FAFC; }
+        .bg-highlight { background-color: #6366F1; }
+        .text-primary { color: #2563EB; }
+        .text-secondary { color: #64748B; }
+        .text-charcoal { color: #1E293B; }
+        .text-highlight { color: #6366F1; }
+        .border-highlight { border-color: #6366F1; }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Button hover effects */
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-light text-charcoal">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="text-2xl font-bold text-primary">
+                    AI for Future Minds
+                </div>
+                
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-primary transition-colors font-medium">Home</a>
+                    <a href="curriculum.html" class="hover:text-primary transition-colors font-medium">Curriculum</a>
+                    <a href="recommended-ai.html" class="hover:text-primary transition-colors font-medium">AI Tools</a>
+                    <a href="get-involved.html" class="hover:text-primary transition-colors font-medium text-primary">Get Involved</a>
+                    <a href="donate.html" class="hover:text-primary transition-colors font-medium">Donate</a>
+                    <a href="contact.html" class="hover:text-primary transition-colors font-medium">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-2xl" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div class="md:hidden hidden pb-4" id="mobile-menu">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="py-2 hover:text-primary transition-colors">Home</a>
+                    <a href="curriculum.html" class="py-2 hover:text-primary transition-colors">Curriculum</a>
+                    <a href="recommended-ai.html" class="py-2 hover:text-primary transition-colors">AI Tools</a>
+                    <a href="get-involved.html" class="py-2 hover:text-primary transition-colors text-primary">Get Involved</a>
+                    <a href="donate.html" class="py-2 hover:text-primary transition-colors">Donate</a>
+                    <a href="contact.html" class="py-2 hover:text-primary transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-charcoal mb-6">
+                Join the Movement
+            </h1>
+            <p class="text-xl text-secondary mb-8 max-w-3xl mx-auto">
+                Help us bring AI literacy to rural students across Taiwan and beyond
+            </p>
+        </div>
+    </section>
+
+    <!-- Teachers & School Leaders Section -->
+    <section class="py-20 bg-light">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="text-4xl mb-6">🏫</div>
+                    <h2 class="text-3xl font-bold text-charcoal mb-6">Teachers & School Leaders</h2>
+                    <p class="text-lg text-charcoal mb-6">
+                        Bring our workshop to your school. We offer a complete curriculum using real-world AI tools like ChatGPT, Replit, Tome, and Canva AI. We'll work with your teaching schedule and classroom environment to adapt lessons and support your students every step of the way.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-charcoal">Complete lesson plans and materials</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-charcoal">Flexible scheduling to fit your needs</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-charcoal">Ongoing support and resources</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-charcoal">100% free for all schools</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold text-charcoal mb-4">What We Provide</h3>
+                    <ul class="space-y-3 text-secondary">
+                        <li>• Pre-workshop teacher training session</li>
+                        <li>• 6-module curriculum with hands-on projects</li>
+                        <li>• Student worksheets and assessment tools</li>
+                        <li>• Technical support during workshops</li>
+                        <li>• Follow-up resources and continued learning paths</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Students Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1">
+                    <div class="bg-light p-8 rounded-lg border border-gray-200">
+                        <h3 class="text-xl font-semibold text-charcoal mb-4">How You Can Help</h3>
+                        <ul class="space-y-3 text-secondary">
+                            <li>• Assist in delivering workshops to younger students</li>
+                            <li>• Help students navigate AI tools during sessions</li>
+                            <li>• Translate materials or create visual aids</li>
+                            <li>• Document success stories and student progress</li>
+                            <li>• Share your own AI learning journey</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <div class="text-4xl mb-6">🧑‍🎓</div>
+                    <h2 class="text-3xl font-bold text-charcoal mb-6">High School & University Students</h2>
+                    <p class="text-lg text-charcoal mb-6">
+                        You don't have to be an expert to help. We welcome passionate students from any background to assist in delivering workshops, help students with tool usage, translate material or make visual aids, and document success stories and impact.
+                    </p>
+                    <p class="text-lg text-charcoal mb-6">
+                        This is a great chance to gain real project experience and showcase leadership in education and technology for your own college applications.
+                    </p>
+                    <div class="bg-highlight bg-opacity-10 p-4 rounded-lg border-l-4 border-highlight">
+                        <p class="text-charcoal font-medium">Perfect for building your portfolio and gaining leadership experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join Section -->
+    <section class="py-20 bg-light">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <div class="text-4xl mb-6">💡</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-charcoal mb-6">Why Join Us</h2>
+                <p class="text-lg text-charcoal max-w-3xl mx-auto">
+                    Many rural students are eager to learn but are left behind by the fast-changing tech world. This initiative gives them access to tools that are shaping modern education and careers. You can help make that leap possible.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Real Impact</h3>
+                    <p class="text-secondary">
+                        Help bridge the digital divide and give students tools that will benefit them for life.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-highlight text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Build Community</h3>
+                    <p class="text-secondary">
+                        Connect with like-minded educators and students passionate about technology and education.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-charcoal mb-3">Gain Experience</h3>
+                    <p class="text-secondary">
+                        Develop teaching, leadership, and project management skills while working with cutting-edge technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Form Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <div class="text-4xl mb-6">✅</div>
+                <h2 class="text-3xl md:text-4xl font-bold text-charcoal mb-6">Ready to Join?</h2>
+                <p class="text-lg text-secondary max-w-2xl mx-auto">
+                    Use the form below or email us directly. We'd love to hear how you'd like to help.
+                </p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto">
+                <form class="bg-light p-8 rounded-lg border border-gray-200">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-charcoal mb-2">Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required 
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-charcoal mb-2">Email *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="role" class="block text-sm font-medium text-charcoal mb-2">Role *</label>
+                        <select 
+                            id="role" 
+                            name="role" 
+                            required 
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        >
+                            <option value="">Select your role</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="student">Student</option>
+                            <option value="volunteer">Volunteer</option>
+                            <option value="school-leader">School Leader</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-charcoal mb-2">Message *</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            required 
+                            rows="5" 
+                            placeholder="Tell us about your interest in joining our mission and how you'd like to help..."
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
+                        ></textarea>
+                    </div>
+                    
+                    <button 
+                        type="submit" 
+                        class="bg-primary text-white px-8 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full text-lg font-semibold"
+                    >
+                        Join Us
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Contact</h3>
+                    <p class="text-secondary mb-2">
+                        contact@aifutureminds.org
+                    </p>
+                </div>
+                
+                <!-- Social Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Links</h3>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-secondary hover:text-primary">Privacy Policy</a>
+                        <a href="#" class="block text-secondary hover:text-primary">FAQ</a>
+                        <a href="#" class="block text-secondary hover:text-primary">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t pt-8 text-center text-secondary">
+                <p>&copy; 2025 AI for Future Minds. Empowering rural youth through AI literacy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest! We will contact you soon to discuss how you can help bring AI education to more students.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

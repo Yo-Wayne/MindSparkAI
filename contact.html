@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AI for Future Minds</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        /* Custom colors */
+        .bg-primary { background-color: #2563EB; }
+        .bg-secondary { background-color: #64748B; }
+        .bg-light { background-color: #F8FAFC; }
+        .bg-highlight { background-color: #6366F1; }
+        .text-primary { color: #2563EB; }
+        .text-secondary { color: #64748B; }
+        .text-charcoal { color: #1E293B; }
+        .text-highlight { color: #6366F1; }
+        .border-highlight { border-color: #6366F1; }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Button hover effects */
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-light text-charcoal">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="text-2xl font-bold text-primary">
+                    AI for Future Minds
+                </div>
+                
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-primary transition-colors font-medium">Home</a>
+                    <a href="curriculum.html" class="hover:text-primary transition-colors font-medium">Curriculum</a>
+                    <a href="recommended-ai.html" class="hover:text-primary transition-colors font-medium">AI Tools</a>
+                    <a href="get-involved.html" class="hover:text-primary transition-colors font-medium">Get Involved</a>
+                    <a href="donate.html" class="hover:text-primary transition-colors font-medium">Donate</a>
+                    <a href="contact.html" class="hover:text-primary transition-colors font-medium text-primary">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-2xl" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div class="md:hidden hidden pb-4" id="mobile-menu">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="py-2 hover:text-primary transition-colors">Home</a>
+                    <a href="curriculum.html" class="py-2 hover:text-primary transition-colors">Curriculum</a>
+                    <a href="recommended-ai.html" class="py-2 hover:text-primary transition-colors">AI Tools</a>
+                    <a href="get-involved.html" class="py-2 hover:text-primary transition-colors">Get Involved</a>
+                    <a href="donate.html" class="py-2 hover:text-primary transition-colors">Donate</a>
+                    <a href="contact.html" class="py-2 hover:text-primary transition-colors text-primary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-charcoal mb-6">
+                Reach Out
+            </h1>
+            <p class="text-xl text-secondary mb-8 max-w-3xl mx-auto">
+                Have questions about our program? Want to bring AI education to your school? We'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-20 bg-light">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Contact Details -->
+                <div>
+                    <h2 class="text-3xl font-bold text-charcoal mb-8">Get in Touch</h2>
+                    
+                    <div class="space-y-8">
+                        <!-- Email -->
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-charcoal mb-2">Email</h3>
+                                <p class="text-secondary mb-2">contact@aifutureminds.org</p>
+                                <p class="text-sm text-secondary">We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Response Time -->
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-highlight rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-charcoal mb-2">Response Time</h3>
+                                <p class="text-secondary mb-2">Within 24 hours</p>
+                                <p class="text-sm text-secondary">Monday - Friday, 9 AM - 6 PM (Taiwan Time)</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Location -->
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-charcoal mb-2">Service Area</h3>
+                                <p class="text-secondary mb-2">Rural Taiwan</p>
+                                <p class="text-sm text-secondary">Currently serving remote schools across Taiwan</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mission Statement -->
+                    <div class="mt-12 p-6 bg-white rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">Our Mission</h3>
+                        <p class="text-secondary">
+                            We're dedicated to bridging the AI literacy gap in rural communities. Our student-led initiative brings practical AI education directly to schools that need it most, ensuring no student is left behind in the digital age.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-2xl font-bold text-charcoal mb-6">Send us a Message</h3>
+                    
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-charcoal mb-2">First Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="firstName" 
+                                    name="firstName" 
+                                    required 
+                                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                >
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-charcoal mb-2">Last Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="lastName" 
+                                    name="lastName" 
+                                    required 
+                                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                >
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-charcoal mb-2">Email *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-charcoal mb-2">Subject *</label>
+                            <select 
+                                id="subject" 
+                                name="subject" 
+                                required 
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                                <option value="">Select a subject</option>
+                                <option value="school-partnership">School Partnership</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="curriculum-inquiry">Curriculum Questions</option>
+                                <option value="donation">Donation Information</option>
+                                <option value="media">Media Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="organization" class="block text-sm font-medium text-charcoal mb-2">School/Organization (Optional)</label>
+                            <input 
+                                type="text" 
+                                id="organization" 
+                                name="organization" 
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                            >
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-charcoal mb-2">Message *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                required 
+                                rows="6" 
+                                placeholder="Tell us about your interest in AI education, questions about our program, or how we can help your school..."
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
+                            ></textarea>
+                        </div>
+                        
+                        <button 
+                            type="submit" 
+                            class="bg-primary text-white px-8 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full text-lg font-semibold"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-charcoal mb-6">Frequently Asked Questions</h2>
+                <p class="text-lg text-secondary max-w-2xl mx-auto">
+                    Quick answers to common questions about our AI education program
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-light p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">How can I bring this program to my school?</h3>
+                        <p class="text-secondary">
+                            Contact us using the form above or email us directly. We'll schedule a call to discuss your school's needs, available technology, and how we can adapt our curriculum to fit your schedule and classroom environment.
+                        </p>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-light p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">Is there any cost for schools?</h3>
+                        <p class="text-secondary">
+                            No, our program is completely free for all schools. We believe AI literacy should be accessible to every student, regardless of their school's budget. All materials, training, and support are provided at no cost.
+                        </p>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-light p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">What technology requirements do we need?</h3>
+                        <p class="text-secondary">
+                            Students need access to computers or tablets with internet connectivity. Most AI tools we use are web-based and work on standard devices. We can also help arrange equipment donations if needed.
+                        </p>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-light p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">How can students get involved as volunteers?</h3>
+                        <p class="text-secondary">
+                            High school and university students can help deliver workshops, assist younger students with AI tools, create educational materials, and document program impact. It's a great way to gain leadership experience and build your portfolio.
+                        </p>
+                    </div>
+                    
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-light p-6 rounded-lg border border-gray-200">
+                        <h3 class="text-lg font-semibold text-charcoal mb-3">What age groups do you serve?</h3>
+                        <p class="text-secondary">
+                            Our curriculum is designed for middle and high school students (ages 12-18), but we can adapt materials for different age groups based on your school's needs and student readiness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Contact</h3>
+                    <p class="text-secondary mb-2">
+                        contact@aifutureminds.org
+                    </p>
+                </div>
+                
+                <!-- Social Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary hover:text-primary">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Links -->
+                <div>
+                    <h3 class="font-semibold text-charcoal mb-4">Links</h3>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-secondary hover:text-primary">Privacy Policy</a>
+                        <a href="#" class="block text-secondary hover:text-primary">FAQ</a>
+                        <a href="#" class="block text-secondary hover:text-primary">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t pt-8 text-center text-secondary">
+                <p>&copy; 2025 AI for Future Minds. Empowering rural youth through AI literacy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Contact form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const firstName = document.getElementById('firstName').value;
+            const subject = document.getElementById('subject').value;
+            
+            alert(`Thank you, ${firstName}! Your message about "${subject}" has been received. We'll get back to you within 24 hours.`);
+            this.reset();
+        });
+    </script>
+</body>
+</html>
