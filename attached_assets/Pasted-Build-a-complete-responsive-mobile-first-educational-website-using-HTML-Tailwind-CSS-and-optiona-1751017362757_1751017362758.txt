@@ -1,0 +1,180 @@
+Build a complete, responsive, mobile-first educational website using HTML + Tailwind CSS and optionally light JavaScript.
+This site is part of a nonprofit initiative to empower rural school children in Taiwan to thrive in an AI-powered future. The goal is to teach them how to use AI tools, not build them — so they can create websites, summarize notes, make presentations, and express creativity, even without coding experience.
+
+🔧 Site Requirements:
+Use Tailwind CSS utility classes for all styling
+
+Keep design minimal, clean, and friendly
+
+Layout must be mobile-first and low-bandwidth compatible
+
+All sections must be clearly separated with adequate spacing (py-20, mt-10, etc.)
+
+Use comments in HTML to explain each section (<!-- Hero Section -->)
+
+Use Poppins or Quicksand as the main font if available
+
+🏗️ WEBSITE STRUCTURE & CONTENT
+Build the website in the following order, all on the homepage (index.html):
+
+1. Navigation Bar
+Left side: Project logo or site name (e.g., AI for Future Minds)
+
+Right side links:
+Home | Courses | Playground | Get Involved | Contact
+
+2. Hero Section
+Background: light sky blue (bg-[#E0F2FE])
+
+Centered content with:
+
+🧠 Title (text-4xl to text-6xl):
+"Empowering Rural Youth with AI Tools"
+
+💬 Subheading (text-xl):
+"Helping students build websites, summarize notes, and learn smarter using AI"
+
+🔘 CTA Button: "Start Learning" → scrolls to course section
+
+3. Mission Section
+Centered paragraph (max-w-3xl mx-auto)
+
+Use this exact mission text:
+
+Our Mission
+
+In today’s world, knowing how to use AI is just as important as reading and writing. Yet many rural students don’t have the tools or guidance to catch up. This project was created to help bridge that gap.
+
+We believe the future belongs to those who use AI effectively, not just those who build it. Through hands-on workshops and an interactive website, we teach students in under-resourced communities how to use AI to build websites, summarize class notes, make presentations, generate creative stories, and explore engineering.
+
+Our goal is to spark curiosity, build confidence, and ensure that no student is left behind in the age of AI.
+
+Also include a row of impact stats below it:
+
+“0 schools reached”
+
+“6 AI tools included”
+
+“100% free for all students”
+
+4. Courses / Learning Modules Section
+Each card includes:
+
+🖼️ Icon or emoji (🎨, 🛠, 📝, 💡, etc.)
+
+Title
+
+Short description
+
+“Start” button
+
+Create these 6 cards in a responsive grid (2 on mobile, 3 on desktop):
+
+Build a Website with AI
+Use tools like Vibe Coding to build and publish your own website.
+
+Summarize Notes with AI
+Turn messy class notes or textbooks into short summaries using ChatGPT or Notion AI.
+
+Create Art with AI
+Draw using tools like DALL·E or Scribble Diffusion – turn ideas into images!
+
+Homework Help with AI
+Ask safe questions, brainstorm writing ideas, and get study support.
+
+Make Presentations with AI
+Use Tome or Canva AI to quickly design and organize your ideas.
+
+Prompt Like a Pro
+Learn how to write better prompts so AI gives better answers.
+
+5. AI Demo Playground
+Title: “Try AI in Real Time!”
+
+Description: Show 1–2 examples (e.g., “Ask AI to summarize text” or “Draw with AI”)
+
+Use iframe embed or mock demo box
+
+Summarizer demo (box to paste paragraph + fake response)
+
+Image generator demo (button: “Draw a robot!” → sample image appears)
+
+6. How It Works Section
+Use 3 columns or horizontal stepper:
+
+Learn the Tool – Quick explanation
+
+Follow the Example – Guided beginner use
+
+Create Your Own Project – Students apply what they learned
+
+7. Volunteer / Contact Section
+Header: “Bring This to Your School”
+
+Subtext: “We’re currently seeking schools and volunteers to expand our reach”
+
+Form with:
+
+Name
+
+Email
+
+School (optional)
+
+Message
+
+Button: “Contact Us”
+
+8. Footer
+Include:
+
+📧 contact@email.com (fake placeholder)
+
+Social icons (email, GitHub, Instagram)
+
+Privacy | FAQ | About links
+
+Light background color (bg-[#F9FAFB]), small text
+
+🎨 COLORS
+Use these color hex codes consistently:
+
+Sky Blue #38BDF8 – headers, buttons
+
+Soft Yellow #FCD34D – button highlights
+
+Light Coral #FB7185 – icons
+
+Off White #F9FAFB – page background
+
+Dark Gray #374151 – text
+
+🔗 MUST INCLUDE TOOL REFERENCES (Link or Embed)
+Each course should link or mention the tools clearly:
+
+ChatGPT
+
+Vibe Coding
+
+Notion AI
+
+Tome
+
+Canva AI
+
+Scribble Diffusion
+
+Use these in your cards or playground section with short, child-friendly descriptions.
+
+📐 LAYOUT STYLE
+Font: Poppins or Quicksand
+
+Tailwind layout:
+
+max-w-7xl mx-auto px-4 for sections
+
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 for course cards
+
+Buttons: rounded-xl bg-[#38BDF8] text-white px-6 py-3 hover:bg-[#0ea5e9]
+
+Use emojis or simple icons to make the site more engaging for young students
