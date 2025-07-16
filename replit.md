@@ -132,7 +132,7 @@ Preferred communication style: Simple, everyday language.
 - July 16, 2025: Integrated Formspree backend (https://formspree.io/f/mkgznpkd) for get-involved and contact forms
 - July 16, 2025: Implemented donation functionality with email modals and custom donation amounts (contact@mindspark.org)
 - July 16, 2025: Enhanced curriculum with student-friendly 6-module structure featuring specific AI tools and project examples
-- July 16, 2025: Expanded AI tools directory with 10+ recommended educational tools including Khanmigo, Socratic, NotebookLM, and QuillBot
+- July 16, 2025: Reorganized AI tools directory into two sections: Learning & Tutoring Tools (ChatGPT, Khanmigo, Socratic, NotebookLM, QuillBot, MagicSchool AI) and Coding & Machine Learning Tools (Replit Ghostwriter, Scratch + ML Extension, Google Teachable Machine, EarSketch)
 - July 16, 2025: Updated all email addresses to contact@mindspark.org
 
 ## Changelog
