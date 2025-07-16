@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate - AI for Future Minds</title>
+    <title>Donate - MindSpark AI</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,7 +53,7 @@
             <div class="flex justify-between items-center py-4">
                 <!-- Logo -->
                 <div class="text-2xl font-bold text-primary">
-                    AI for Future Minds
+                    MindSpark AI
                 </div>
                 
                 <!-- Desktop Navigation Links -->
@@ -137,9 +137,10 @@
                             <span class="text-secondary">Take-home resources</span>
                         </div>
                     </div>
-                    <button class="bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full">
+                    <a href="mailto:contact@mindspark.org?subject=I want to donate $10&body=Hi MindSpark AI team,%0D%0A%0D%0AI'm interested in donating $10 to support AI education for rural students. Please send me information about how to complete this donation.%0D%0A%0D%0AThank you for your important work!" 
+                       class="block bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full text-center">
                         Donate $10
-                    </button>
+                    </a>
                 </div>
 
                 <!-- $50 Tier -->
@@ -171,9 +172,10 @@
                             <span class="text-secondary">Teacher training session</span>
                         </div>
                     </div>
-                    <button class="bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full">
+                    <a href="mailto:contact@mindspark.org?subject=I want to donate $50&body=Hi MindSpark AI team,%0D%0A%0D%0AI'm interested in donating $50 to support AI education for rural students. Please send me information about how to complete this donation.%0D%0A%0D%0AThank you for your important work!" 
+                       class="block bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full text-center">
                         Donate $50
-                    </button>
+                    </a>
                 </div>
 
                 <!-- $200 Tier -->
@@ -202,9 +204,10 @@
                             <span class="text-secondary">Ongoing support and follow-up</span>
                         </div>
                     </div>
-                    <button class="bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full">
+                    <a href="mailto:contact@mindspark.org?subject=I want to donate $200&body=Hi MindSpark AI team,%0D%0A%0D%0AI'm interested in donating $200 to support AI education for rural students. Please send me information about how to complete this donation.%0D%0A%0D%0AThank you for your important work!" 
+                       class="block bg-primary text-white px-6 py-3 rounded-lg btn-primary hover:bg-blue-700 w-full text-center">
                         Donate $200
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -344,7 +347,7 @@
                 <div>
                     <h3 class="font-semibold text-charcoal mb-4">Contact</h3>
                     <p class="text-secondary mb-2">
-                        contact@aifutureminds.org
+                        contact@mindspark.org
                     </p>
                 </div>
                 
@@ -383,7 +386,7 @@
             </div>
             
             <div class="border-t pt-8 text-center text-secondary">
-                <p>&copy; 2025 AI for Future Minds. Empowering rural youth through AI literacy.</p>
+                <p>&copy; 2025 MindSpark AI. Empowering rural youth through AI literacy.</p>
             </div>
         </div>
     </footer>
@@ -395,14 +398,7 @@
             mobileMenu.classList.toggle('hidden');
         });
         
-        // Donation button handlers
-        document.querySelectorAll('button').forEach(button => {
-            if (button.textContent.includes('Donate')) {
-                button.addEventListener('click', function() {
-                    alert('Thank you for your interest in supporting AI education! In a real implementation, this would connect to a payment processor like PayPal or Stripe.');
-                });
-            }
-        });
+        // Donation links now handled via mailto
         
         // Custom donation form
         document.querySelector('form').addEventListener('submit', function(e) {
@@ -415,8 +411,11 @@
                 return;
             }
             
-            alert(`Thank you for your ${frequency === 'once' ? 'one-time' : frequency} donation of $${amount}! In a real implementation, this would process your payment securely.`);
-            this.reset();
+            const subject = `I want to donate $${amount}`;
+            const body = `Hi MindSpark AI team,%0D%0A%0D%0AI'm interested in making a ${frequency === 'once' ? 'one-time' : frequency} donation of $${amount} to support AI education for rural students. Please send me information about how to complete this donation.%0D%0A%0D%0AThank you for your important work!`;
+            const mailtoLink = `mailto:contact@mindspark.org?subject=${encodeURIComponent(subject)}&body=${body}`;
+            
+            window.location.href = mailtoLink;
         });
     </script>
 </body>

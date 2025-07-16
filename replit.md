@@ -1,8 +1,8 @@
-# AI for Future Minds - Educational Website
+# MindSpark AI - Educational Website
 
 ## Overview
 
-This is a multi-page professional educational website designed to empower rural youth with AI tools and knowledge. The project is part of a student-led nonprofit initiative targeting rural school children in Taiwan, focusing on teaching them how to use AI tools effectively rather than building them. The website serves as a comprehensive platform for education, volunteer recruitment, and program promotion.
+This is a multi-page professional educational website for MindSpark AI, designed to empower rural youth with AI tools and knowledge. The project is part of a student-led nonprofit initiative targeting rural school children in Taiwan, focusing on teaching them how to use AI tools effectively rather than building them. The website serves as a comprehensive platform for education, volunteer recruitment, and program promotion.
 
 ## System Architecture
 
@@ -125,6 +125,15 @@ This is a multi-page professional educational website designed to empower rural 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Recent Changes
+
+- July 16, 2025: Complete rebranding from "AI for Future Minds" to "MindSpark AI" across all 6 pages
+- July 16, 2025: Integrated Formspree backend (https://formspree.io/f/mkgznpkd) for get-involved and contact forms
+- July 16, 2025: Implemented donation functionality with email modals and custom donation amounts (contact@mindspark.org)
+- July 16, 2025: Enhanced curriculum with student-friendly 6-module structure featuring specific AI tools and project examples
+- July 16, 2025: Expanded AI tools directory with 10+ recommended educational tools including Khanmigo, Socratic, NotebookLM, and QuillBot
+- July 16, 2025: Updated all email addresses to contact@mindspark.org
 
 ## Changelog
 

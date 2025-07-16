@@ -1,0 +1,128 @@
+Learning & Tutoring Tools
+Trusted Tools
+
+Khanmigo (Khan Academy)
+Grade 4–12. Interactive conversational tutor for math, science, writing; offers guided hints instead of answers.
+
+Socratic by Google
+Middle–High School. Snap homework photos; provides step-by-step explanations across STEM and humanities.
+
+MagicSchool AI
+Middle–High School. Personalized homework help, study guides, and concept explanations.
+
+Doctrina AI
+Grades 6–12. Summarizes notes, generates quizzes and exam prep materials.
+
+Anki (with edCircuit integration)
+All ages. Spaced-repetition flashcards for vocabulary, facts, and skills.
+
+Newer 2025 Additions
+
+QANDA
+Middle–High School. Camera-based math solver that walks students through each solution step.
+
+SchoolAI
+Middle–High School. Real-time in-class support and alerts for teachers; helps students with questions as they learn.
+
+NotebookLM (Google)
+High School–College Prep. AI study companion that summarizes notes, generates outlines and answer checkers—now available to under-18 users.
+
+Homework, Study Support & Writing Tools
+Trusted Tools
+
+ChatGPT for Kids
+All ages (with supervision). Brainstorm essays, stories, simplify complex text (“explain like I’m 10”).
+
+Quillbot (Free Plan)
+Grades 5+. Rephrases and summarizes text to enhance clarity and writing skills.
+
+ReadAlong by Google
+Early Elementary. Reads aloud stories and provides pronunciation feedback.
+
+Ello AI Reading Coach
+Elementary. Helps young readers with decoding and fluency through guided reading and feedback.
+
+Newer 2025 Additions
+
+MagicSchool AI
+Extended across reading, writing, and subject comprehension with study plan tools.
+
+NotebookLM (as above). Helps with organization and summarization of study materials.
+
+Notion AI
+Middle–High School. Suggests outlines, summarizes research, and assists in writing assignments.
+
+Creativity & Art Tools
+Trusted Tools
+
+DALL·E / MidJourney
+Grades 6+. Create unique images for school projects, storytelling, or design work.
+
+Craiyon (formerly DALL·E Mini)
+Grades 4+. Generate fun illustrations from text prompts, no sign-in required.
+
+AutoDraw (Google)
+Elementary. Sketch something, and AI suggests polished versions—helps teach drawing basics.
+
+Toontastic 3D
+Grades K–8. Build animated stories with characters and voice narration.
+
+Newer 2025 Additions
+
+Curipod (age 9–14)
+Co-create interactive, voice-prompted presentations; excellent for introduction to design and multimedia.
+
+Scribble Diffusion
+Grades 4+. Turn simple doodles into fully styled images using AI.
+
+Imagine.art / Artbreeder Kids
+All ages. Safe image remixing to explore composition and creativity.
+
+Coding & Machine Learning Tools
+Trusted Tools
+
+Replit Ghostwriter
+Grades 7+. Prompts in English generate Python/HTML/CSS code—great introduction to AI-assisted coding.
+
+EarSketch
+Grades 7+. Code music beats and tracks using Python or JavaScript.
+
+Scratch with GPT-API Integration
+Grades 5+. Add AI elements—chat, behaviors—into block-based Scratch games.
+
+Newer 2025 Additions
+
+Scratch + ML Extension
+Grades 7–12. Voice and image recognition built right into Scratch’s block coding.
+
+Google Teachable Machine
+Ages 8+. Train simple ML models with webcam/microphone—recognize gestures, sounds, or images.
+
+Speech, Presentation & Media Tools
+Trusted Tools
+
+Murf.ai (free trial)
+Grades 6+. Convert written speeches into engaging audio with natural-sounding voices.
+
+ElevenLabs (starter plan)
+Middle–High School. Text-to-speech tool with diverse voice options; ideal for podcasts or storytelling.
+
+Veed.io (with subtitles)
+Grade 7+. Video editing tool with auto-captioning, good for storytelling or presentation projects.
+
+Newer 2025 Additions
+
+(None strictly new in 2025 here, but updates of the above tools offer improved voice quality and accessibility.)
+
+Educational Games & Interactive Learning
+Trusted Tools
+
+Minecraft: Education Edition
+Grades K–12. AI-integrated mods for storytelling, logic, and problem-solving.
+
+Kahoot! with AI-enhanced quizzes
+Elementary–High School. Fun, interactive classroom quiz game; AI helps generate and review questions.
+
+Newer 2025 Additions
+
+(Most “game-based learning” updates occur within these existing platforms.)
